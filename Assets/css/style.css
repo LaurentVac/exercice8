@@ -1,0 +1,80 @@
+.bloc {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    word-wrap: break-word;
+    /*word-wrap: break-word =le retour a la ligne ; .bloc correspond a la page*/
+
+
+
+
+}
+
+#block1,
+#block2,
+#block3 {
+    width: 30%;
+    flex-direction: column;
+    display: flex;
+    padding: 5px;
+/*defini les colonne*/
+
+
+}
+
+
+
+.blocimg {
+    position: relative;
+}/*defini le texte sur l'image*/
+
+img {
+    width: 100%;
+    height: 100%;
+}/*defini la dimenssion des images*/
+
+.legend {color: lightyellow;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(29, 97, 161, 0.85);
+    opacity: 0;
+    -webkit-transition : opacity .5s ease;
+    /* transition: opacity .5s ease;*/
+}
+
+.bloc,
+.legend ,.legend3 ,.legend4 {
+    opacity: 1;
+}
+hr {
+    background-color: rgb(3, 12, 20);
+    width: 100%;
+    margin-bottom: 10px;
+}
+.legend1 {
+    background-color:rgba(24, 81, 138, 0.85);
+    color:lightyellow;
+
+}
+.legend2 {
+    background-color: red;
+    color: seashell;
+}
+.legend3,.legend4 {
+    color: lightyellow;
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(190, 22, 50, 0.85);
+
+    /* transition: opacity .5s ease;*/
+}
+.blue{
+    font-family: Impact, Charcoal, sans-serif;
+    color: rgb(18, 136, 172);
+}
+.legend ,.legend1,.legend2 ,.legend3 , .legend4 {
+    padding: 1%;
+}/*defini l'espace à l'interieur de la box*/
+.marg {
+    margin-top: 10px;
+}/*defini l'espace entre les ligne ;top=haut;botom=bas*/
